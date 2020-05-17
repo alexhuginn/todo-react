@@ -1,0 +1,33 @@
+input[type='checkbox'] {
+  appearance: none;
+  border: 2px solid #52796F;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 9px;
+  padding: 9px;
+  position: relative;
+}
+
+input[type='checkbox']:checked {
+  background-color: #52796F;
+}
+
+input[type='checkbox']:checked:after {
+	color: #CAD2C5;
+	content: '\2714';
+	font-size: 14px;
+	left: 3px;
+	position: absolute;
+	top: 0;
+}
+
+@media only screen and (min-width: 510px) {
+  input[type='checkbox'] {
+    padding: 18px;
+  }
+
+  input[type='checkbox']:checked:after {
+    font-size: 28px;
+    left: 6px;
+  }
+}

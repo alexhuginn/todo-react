@@ -1,0 +1,27 @@
+.item {
+  align-items: center;
+  background-color: #CAD2C5;
+  color: #52796F;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  width: 100%;
+}
+
+.item a {
+  color: #52796F;
+  display: block;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.item button {
+  background-color: #CAD2C5;
+  color: #52796F;
+}
+
+.item button span {
+  display: inline-block;
+  transform: rotate(45deg);
+}
